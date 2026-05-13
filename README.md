@@ -21,9 +21,45 @@ Thay vì phải đăng xuất, gõ lại username và password mỗi khi muốn 
 Yêu cầu máy tính đã cài đặt Python 3.10 trở lên.
 
 1. Clone repository:
+   ```bash
    git clone [https://github.com/your-username/riot-auto-switcher.git](https://github.com/your-username/riot-auto-switcher.git)
    cd riot-auto-switcher
-2. Cài đặt các thư viện phụ thuộc:
+3. Cài đặt các thư viện phụ thuộc:
+   ```bash
    pip install -r requirements.txt
-3. Khởi chạy ứng dụng:
+4. Khởi chạy ứng dụng:
+   ```bash
+   python main.py
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Riot Auto Switcher
+
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)
+
+Riot Auto Switcher is an open-source Python tool designed to simplify switching between Riot Games accounts (specifically League of Legends and Valorant). 
+
+Instead of manually logging out, typing your username and password every time you want to switch accounts, this tool fully automates the process.
+
+## Key Features
+
+* **Automated Login:** Automatically terminates the current session, opens Riot Client, injects credentials, and launches the selected game.
+* **Local Encryption:** Passwords are AES encrypted (Fernet) and stored strictly locally on your machine (`accounts.json`). No data is sent over the internet.
+* **Modern UI:** Built with CustomTkinter featuring a Dark theme and intuitive Drag-and-Drop account sorting.
+* **Multi-language:** Seamlessly switch between English and Vietnamese.
+* **Progress Tracking:** Real-time status bar reporting the current execution step.
+
+## How to run (For Developers)
+
+Requires Python 3.10 or higher.
+
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/your-username/riot-auto-switcher.git](https://github.com/your-username/riot-auto-switcher.git)
+   cd riot-auto-switcher
+2.
+   ```bash
+   pip install -r requirements.txt
+3.
+   ```bash
    python main.py
