@@ -1,0 +1,8 @@
+customtkinter
+pyautogui
+pyscreeze
+psutil
+requests
+cryptography
+Pillow
+pywin32
