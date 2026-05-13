@@ -4,9 +4,9 @@
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)
 
-Riot Auto Switcher là một công cụ cá nhân được viết bằng Python, giúp đơn giản hóa việc chuyển đổi qua lại giữa các tài khoản Riot Games (đặc biệt là Liên Minh Huyền Thoại và Valorant). 
+Riot Auto Switcher là một công cụ cá nhân được viết bằng Python, giúp đơn giản hóa việc chuyển đổi qua lại giữa các tài khoản Riot Games (Liên Minh Huyền Thoại và Valorant). 
 
-Thay vì phải đăng xuất, gõ lại username và password mỗi khi muốn đổi tài khoản (smurf, chơi hộ bạn bè...), tool sẽ tự động hóa toàn bộ quá trình này.
+Thay vì phải đăng xuất, gõ lại username và password mỗi khi muốn đổi tài khoản khác nhau, tool sẽ tự động hóa toàn bộ quá trình này.
 
 ## Các tính năng chính
 
@@ -16,7 +16,7 @@ Thay vì phải đăng xuất, gõ lại username và password mỗi khi muốn 
 * **Đa ngôn ngữ:** Hỗ trợ Tiếng Việt và Tiếng Anh.
 * **Theo dõi tiến trình:** Có thanh trạng thái báo cáo chi tiết các bước tool đang thực thi.
 
-## Hướng dẫn chạy code (Dành cho Developer)
+## Hướng dẫn chạy code 
 
 Yêu cầu máy tính đã cài đặt Python 3.10 trở lên.
 
